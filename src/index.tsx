@@ -1,15 +1,51 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Wall from "pages/Wall/Wall";
 import reportWebVitals from "./reportWebVitals";
+
+// react-router-dom
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Loading from "pages/Loading/Loading";
+
+// components
+const Wall = React.lazy(() => import("pages/Wall/Wall"));
+const Home = React.lazy(() => import("pages/Home/Home"));
+const NotFound = React.lazy(() => import("pages/NotFound/NotFound"));
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <Wall />
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <React.Suspense fallback={<Loading />}>
+              <Home />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="/wall"
+          element={
+            <React.Suspense fallback={<Loading />}>
+              <Wall />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="*"
+          element={
+            <React.Suspense fallback={<Loading />}>
+              <NotFound />
+            </React.Suspense>
+          }
+        />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

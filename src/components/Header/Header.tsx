@@ -1,5 +1,5 @@
 // react
-import logo from "assets/images/logo-crop.png";
+import logo from "assets/images/logo.png";
 
 import "./Header.css";
 
