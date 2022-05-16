@@ -21,3 +21,4 @@ artifacts:
   name: .
   files:
     - build/**/*
+  base-directory: .
