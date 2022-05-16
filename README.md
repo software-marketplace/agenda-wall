@@ -61,3 +61,17 @@ There is a button that will take the user to the home page.
 ### Additional Problems Faced
 1. Wasn't able to decide on a design for the app.
 2. Difficulty in using tailwindcss (As it was my first time using it).
+
+## Future Improvements
+- Unlimited canvas size
+- Phone support
+- Card can have priorities
+- Make it PWA!
+
+## Inspiration
+Excalidraw and MY WALL.
+
+## Note
+**I am sorry for the notification mess. If you wanna know how I would solve it.**
+
+**CodeBuild -> lambda (formatter) -> SNS (Email) -> Subscribers** 
