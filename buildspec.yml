@@ -10,12 +10,8 @@ phases:
       - yarn install
   build:
     commands:
-      - echo Build started on `date`
       - echo Building the React.js project
       - yarn build
-  post_build:
-    commands:
-      - echo Build completed on `date`
 
 artifacts:
   name: .
