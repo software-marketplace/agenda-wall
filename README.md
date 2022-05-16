@@ -31,11 +31,26 @@ To Build App:
 ### `/`
 
 Simple page that users can see when they visit the app.
+
+![Home](screenshots/home.png)
+
 ### `/wall`
 
 The main page of the app. This is where the wall of cards is displayed.
 
+![Wall](screenshots/wall.png)
+
 You can add cards to the wall by clicking the "+" button.
+
+![Add Agenda](screenshots/wall-add-agenda.png)
+
+### `/404`
+
+The page that is displayed when a user tries to visit a page that doesn't exist.
+
+There is a button that will take the user to the home page.
+
+![404](screenshots/404.png)
 
 ## Problems Faced
 
