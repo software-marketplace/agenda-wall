@@ -18,12 +18,9 @@ phases:
       - echo Build completed on `date`
 
 artifacts:
-  name: homework-app
-
-  # The path to the build output artifact
-  # default path: homework-app/build/
-  # path set to root of S3 bucket for simplicity
-  base-directory: ../../
-
+  # If type is set to S3, this is the name of the output artifact object.
+  # If you set the name to be a forward slash ("/"),
+  # the artifact is stored in the root of the output bucket.
+  name: /
   files:
     - build/**/*
