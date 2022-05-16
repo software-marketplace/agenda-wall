@@ -1,0 +1,10 @@
+#question-button-root {
+  .qbutton {
+    background-color: #f5f5f5;
+    background-image: url('assets/images/outline-question-button.png');
+  }
+
+  .qbutton:hover {
+    background-image: url('assets/images/solid-question-button.png');
+  }
+}

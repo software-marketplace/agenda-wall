@@ -31,8 +31,33 @@ To Build App:
 ### `/`
 
 Simple page that users can see when they visit the app.
+
+![Home](screenshots/home.png)
+
 ### `/wall`
 
 The main page of the app. This is where the wall of cards is displayed.
 
+![Wall](screenshots/wall.png)
+
 You can add cards to the wall by clicking the "+" button.
+
+![Add Agenda](screenshots/wall-add-agenda.png)
+
+### `/404`
+
+The page that is displayed when a user tries to visit a page that doesn't exist.
+
+There is a button that will take the user to the home page.
+
+![404](screenshots/404.png)
+
+## Problems Faced
+
+1. Difficulty in understanding the assignment instructions. Whether I had to use AWS Development Services or whether I am free to choose in how to build the CI/CD Pipeline.
+2. Difficulty in deciding which service to use (CodeBuild or CodePipeline)
+3. Faced Issue in creating the CI/CD Pipeline (As it was my first time using AWS CodeBuild). I had issues in uploading my artifact to the root of the S3 bucket.
+
+### Additional Problems Faced
+1. Wasn't able to decide on a design for the app.
+2. Difficulty in using tailwindcss (As it was my first time using it).

@@ -13,6 +13,7 @@ phases:
       - echo Building the React.js project
       - yarn build
 
+# The deployment is done by the AWS CodeBuild service.
 artifacts:
   name: .
   files:
