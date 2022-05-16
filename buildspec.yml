@@ -19,6 +19,11 @@ phases:
 
 artifacts:
   name: homework-app
-  base-directory: ./
+
+  # The path to the build output artifact
+  # default path: homework-app/build/
+  # path set to root of S3 bucket for simplicity
+  base-directory: ../../
+
   files:
     - build/**/*
