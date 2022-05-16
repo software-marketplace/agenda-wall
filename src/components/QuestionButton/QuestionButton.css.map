@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,qBADmB,CACnB,QAAQ,CAAC;EACP,gBAAgB,EAAE,OAAO;EACzB,gBAAgB,EAAE,gDAAgD;CACnE;;AAJH,AAME,qBANmB,CAMnB,QAAQ,AAAA,MAAM,CAAC;EACb,gBAAgB,EAAE,8CAA8C;CACjE",
+    "sources": [
+        "QuestionButton.scss"
+    ],
+    "names": [],
+    "file": "QuestionButton.css"
+}
