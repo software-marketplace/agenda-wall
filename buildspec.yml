@@ -21,4 +21,4 @@ artifacts:
   name: homework-app
   files:
     - build/**/*
-  base-directory: /
+  discard-paths: yes
