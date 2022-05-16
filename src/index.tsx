@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 
 // react-router-dom
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Loading from "pages/Loading/Loading";
+import Loading from "components/Loading/Loading";
 
 // components
 const Wall = React.lazy(() => import("pages/Wall/Wall"));
