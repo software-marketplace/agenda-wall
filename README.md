@@ -70,8 +70,3 @@ There is a button that will take the user to the home page.
 
 ## Inspiration
 Excalidraw and MY WALL.
-
-## Note
-**I am sorry for the notification mess. If you wanna know how I would solve it.**
-
-**CodeBuild -> lambda (formatter) -> SNS (Email) -> Subscribers** 
