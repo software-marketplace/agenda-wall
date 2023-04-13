@@ -1,0 +1,32 @@
+{
+  "product_name": "Agenda Wall",
+  "product_description": "A simple wall of cards that can be used to display agenda items.",
+  "images":
+    [
+      "https://raw.githubusercontent.com/software-marketplace/agenda-wall/release/screenshots/home.png",
+      "https://raw.githubusercontent.com/software-marketplace/agenda-wall/release/screenshots/wall.png",
+      "https://raw.githubusercontent.com/software-marketplace/agenda-wall/release/screenshots/wall-add-agenda.png"
+    ],
+  "display_image": "https://raw.githubusercontent.com/software-marketplace/agenda-wall/release/screenshots/home.png",
+  "built_by": "KryptoBlack",
+  "rating": 3.8,
+  "Price": 25000,
+  "tags": [ "Productivity", "Web Application", "ToDo" ],
+  "compare":
+    {
+      "frontend": [ "React" ],
+      "backend": [ "Node.js" ],
+      "cloud_providers": [ "AWS" ],
+      "cloud_Services": [ "Cloudflare" ],
+      "type": "Web Application",
+      "admin": "No",
+      "tracking_dashboards": "No",
+      "navigation_dahboards": "Yes",
+      "is_cloud_data_store": "Yes",
+      "databases": [ "SQLite3" ],
+      "architecture": [ "Microservice" ],
+      "license": [ "Single Use" ],
+      "maintainance_lifetime": "No",
+      "maintainence_in_months": "12"
+    }
+}
