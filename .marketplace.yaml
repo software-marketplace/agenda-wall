@@ -14,7 +14,7 @@
   "tags": [ "Productivity", "Web Application", "ToDo" ],
   "compare":
     {
-      "frontend": [ "React" ],
+      "frontend": [ "React,node,mern" ],
       "backend": [ "Node.js" ],
       "cloud_providers": [ "AWS" ],
       "cloud_Services": [ "Cloudflare" ],
