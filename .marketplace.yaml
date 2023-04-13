@@ -11,7 +11,7 @@
   "built_by": "KryptoBlack",
   "rating": 3.8,
   "Price": 25000,
-  "tags": [ "Productivity", "Web Application" ],
+  "tags": [ "Productivity", "Web Application", "ToDo" ],
   "compare":
     {
       "frontend": [ "React" ],
